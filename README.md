@@ -4,6 +4,7 @@
 
 A plugin for [Obsidian](https://obsidian.md) to add all your CSS snippets as commands, accessible from the command pallette and even assignable to hotkeys!
 
+**Important** If your snippets change while Obsidian is running, there is also a command to "Reload all snippet commands"
 
 ### Compatibility
 
