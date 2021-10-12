@@ -16,7 +16,6 @@ export default class SnippetCommandsPlugin extends Plugin {
 
   enableCommands() {
     const customCss = (this.app as any).customCss;
-    console.log(customCss);
     const knownSnippets = customCss.snippets;
     console.log(`[Snippet Commands]: Loading commands for ${knownSnippets.length} snippets`, knownSnippets);
     knownSnippets.forEach((snippet:string) => {
